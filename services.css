@@ -1,0 +1,42 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .service {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .service h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
